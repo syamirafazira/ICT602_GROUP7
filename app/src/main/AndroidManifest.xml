@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HotelBookingSystemsAndroid"
+        tools:targetApi="31" >
+        <activity
+            android:name=".Activity.Tenant.Authentication_Part.PaymentHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Authentication_Part.EditUserAccActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.TenantMainPage_Part.CallServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.AboutUs_Part.ServicesAndFacilitiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.AboutUs_Part.HotelDescriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.AboutUs_Part.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Start_Booking_Part.ActivitySuitRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Start_Booking_Part.ActivityFamilyRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Start_Booking_Part.ActivityDoubleRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Start_Booking_Part.ActivitySingleRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Start_Booking_Part.ActivityRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Start_Booking_Part.BookingRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Authentication_Part.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.Authentication_Part.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.TenantMainPage_Part.RoomDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.TenantMainPage_Part.OrderFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.TenantMainPage_Part.FoodDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.TenantMainPage_Part.FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.TenantMainPage_Part.ExtendStayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.TenantMainPage_Part.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Tenant.TenantMainPage_Part.AmountDetailsActivity"
+            android:exported="false" />
+        <activity android:name=".Activity.Employee.Tenant.HistoryTenantDetailActivity" />
+        <activity android:name=".Activity.Employee.Tenant.HistoryTenantActivity" />
+        <activity android:name=".Activity.Employee.Tenant.SearchActivity" />
+        <activity android:name=".Activity.Employee.Tenant.AddTenant.AddTenantSuccessful" />
+        <activity android:name=".Activity.Employee.Tenant.AddTenant.AddTenantFail" />
+        <activity android:name=".Activity.Employee.Tenant.EditTenantActivity" />
+        <activity android:name=".Activity.Employee.Tenant.AddTenant.AddTenantActivity" />
+        <activity android:name=".Activity.Employee.Room.DeleteRoom.DeleteRoomActivity" />
+        <activity android:name=".Activity.Employee.Room.DeleteRoom.DeleteRoomFailedActivity" />
+        <activity android:name=".Activity.Employee.Room.DeleteRoom.DeleteRoomSuccessfulActivity" />
+        <activity android:name=".Activity.Employee.Room.RoomDetailsActivity" />
+        <activity android:name=".Activity.Employee.Room.RoomListActivity" />
+        <activity android:name=".Activity.Employee.Room.AddRoom.AddRoomFailedActivity" />
+        <activity android:name=".Activity.Employee.Room.AddRoom.AddRoomSuccessfulActivity" />
+        <activity android:name=".Activity.Employee.Room.RoomListFilterActivity" />
+        <activity android:name=".Activity.Employee.Room.AddRoom.AddRoomStep1Activity" />
+        <activity android:name=".Activity.Employee.Room.AddRoom.AddRoomStep2Activity" />
+        <activity android:name=".Activity.Employee.Room.AddRoom.AddRoomStep3Activity" />
+        <activity android:name=".Activity.Employee.Room.ChangeRoom.ChangeRoomPriceActivity" />
+        <activity android:name=".Activity.Employee.Room.ChangeRoom.ChangeRoomPriceFailedActivity" />
+        <activity android:name=".Activity.Employee.Room.ChangeRoom.ChangeRoomPriceSuccessfulActivity" />
+        <activity android:name=".Activity.Employee.Room.ChangeRoom.ChangeRoomStatusActivity" />
+        <activity android:name=".Activity.Employee.Tenant.TenantMainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
